@@ -48,7 +48,7 @@ model = Pipeline([
         TfidfVectorizer(
             max_features=20000,
             ngram_range=(1, 2),
-            stop_words="english",
+            stop_words=None,
         ),
     ),
     (
