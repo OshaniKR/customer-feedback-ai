@@ -32,12 +32,13 @@ flowchart TD
     A[Customer Review] --> B[React Frontend]
     B --> C[FastAPI Backend]
     C --> D[TF-IDF Vectorizer]
-    D --> E[Logistic Regression]
+    D --> E[Logistic Regression Model]
     E --> F[Sentiment Prediction]
     F --> C
     C --> B
     B --> G[Display Result]
 ```
+
 
 ## Machine Learning Workflow
 
