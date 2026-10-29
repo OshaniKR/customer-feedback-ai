@@ -3,6 +3,7 @@
 .venv/
 __pycache__/
 *.py[cod]
+.pytest_cache/
 
 # Original and processed datasets
 data/raw/*
@@ -14,6 +15,16 @@ results/*
 
 # Secrets
 .env
+.env.*
 
 # Generated reports
 reports/figures/
+
+# React / Node.js
+frontend/node_modules/
+frontend/dist/
+
+
+#Editor and operating system files
+.vscode/
+.DS_Store
