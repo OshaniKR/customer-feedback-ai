@@ -204,5 +204,3 @@ The response includes the submitted review, the predicted sentiment label, and a
 ## Author
 
 **Oshani Ranathunga**
-
-- GitHub: [OshaniKR](https://github.com/OshaniKR)
